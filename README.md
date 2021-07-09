@@ -9,6 +9,7 @@
 * The contract under "contract/" allows network flows insertions/query and the execution of the botnet detection algorithm.
 * All the intermediate PeerHunter data, and the network flows data, will be compressed on the ledger, for performance sake in the read operations.
 * The contract can execute reads from the ledger of up to 4MB, so the detection date is splitted in chunks before saving on the ledger.
+* The first implementation of PAutoBotCatcher can be found at: https://gitlab.com/lucalanda/fabricbotnetdetection.
 
 ## Project Structure
 
@@ -37,6 +38,8 @@
 
 ### Prerequisits
 - Make sure `cryptogen` and `configtxgen` are added to your PATH.
+
+- Download the data set in `application/dataset/` folder from https://gitlab.com/lucalanda/fabricbotnetdetection/-/raw/extended_architecture/application/dataset/flows.csv
 
 - Hyperledger Fabric 2.2 requirements https://hyperledger-fabric.readthedocs.io/en/release-2.2/getting_started.html
 
