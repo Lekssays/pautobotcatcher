@@ -1,6 +1,18 @@
-# PAutoBotCatcher: A Blockchain-based Privacy-preserving Botnet Detector for Internet of Things (under peer-review)
+# PAutoBotCatcher: A Blockchain-based Privacy-preserving Botnet Detector for Internet of Things
 
-### Authors: Ahmed Lekssays, Luca Landa, Barbara Carminati, and Elena Ferrari
+Authors: Ahmed Lekssays, Luca Landa, Barbara Carminati, and Elena Ferrari
+
+## Cite
+```
+@article{lekssays2021pautobotcatcher,
+  title={PAutoBotCatcher: A blockchain-based privacy-preserving botnet detector for Internet of Things},
+  author={Lekssays, Ahmed and Landa, Luca and Carminati, Barbara and Ferrari, Elena},
+  journal={Computer Networks},
+  pages={108512},
+  year={2021},
+  publisher={Elsevier}
+}
+```
 
 ## Description
 
